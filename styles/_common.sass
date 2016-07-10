@@ -3,7 +3,214 @@ body
   font-size: $font-size-base
   color: $color-text-base
   height: 100%
+<<<<<<< HEAD
 a
   text-decoration: none
 textarea
   resize: none
+=======
+
+.wrap
+  display: flex
+  flex-direction: column
+.main
+  max-width: 1200px
+  margin: $margin_center
+
+//Header
+.header
+  padding: 10px 0
+  .main
+    +clearfix
+.hedear-left
+  float: left
+  line-height: 52px
+  .logo
+    float: left
+    margin-right: 15px
+    height: 50px
+  .navigation
+    float: left
+    ul
+      +clearfix
+      li
+        float: left
+        a
+          text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5)
+          font-size: 16px
+          padding: 0 8px
+          color: #333
+          &:hover
+            color: #9c6201
+.hedaer-right
+  float: right
+  line-height: 52px
+  .hedaer-right-phone
+    float: right
+  .hedaer-right-form
+    float: right
+    .location
+      padding: 5px
+      line-height: 18px
+      background-color: #fff
+      text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5)
+      border: 2px solid rgba(254, 172, 30, 0.4)
+  .hedaer-right-phone
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5)
+    line-height: 16px
+    width: 150px
+    padding-top: 9px
+    margin-left: 15px
+//End Header
+
+//Banner
+.content-block-1
+  background: url("../images/banner-home.png") no-repeat center
+  background-size: cover
+.banner-wrap
+  min-height: 600px
+  flex-flow: row wrap
+  +flexbox
+  +flex-direction(column)
+  justify-content: center
+  .banner-title
+    text-align: center
+    font-size: 36px
+    color: #fff
+    text-transform: $text-transform
+    font-weight: 500
+    margin-bottom: 50px
+    span
+      padding: 5px
+      border: 2px solid #fff
+  .banner-text
+    text-align: center
+    font-size: 36px
+    line-height: 2
+    color: #fff
+    text-transform: $text-transform
+    span
+      color: #feaa1e
+//End Banner
+
+//Work
+.content-block-2
+  padding: 30px 0
+.main-title
+  text-align: center
+  text-transform: $text-transform
+  font-size: 22px
+  line-height: 24px
+  margin-bottom: 40px
+  font-weight: 700
+.work-block-row
+  flex-flow: row wrap
+  +flexbox
+  .work-block-item
+    flex: 1
+    text-align: center
+    .work-block-item__title
+      font-size: 16px
+      line-height: 18px
+      font-weight: 700
+      text-transform: $text-transform
+      margin: 10px auto 5px
+      width: 250px
+    .work-block-item__text
+      width: 250px
+      margin: 0 auto 20px
+      line-height: 18px
+
+//End Work
+
+//Trust
+.content-block-3
+  background-color: #e5e8ea
+  padding: 30px 0
+.trust-block-row
+  flex-flow: row wrap
+  +flexbox
+  .trust-block-item
+    height: 180px
+    flex: 1
+    margin: 5px
+    border: 2px solid #fff
+    background-color: #d7dbde
+    +transition(all ease 1.5s)
+    +flexbox
+    justify-content: center
+    align-items: center
+    &:hover
+      background-color: #adb5bb
+    img
+      display: block
+      width: 100%
+//End Trust
+
+//Technology
+.content-block-4
+  padding: 30px 0
+  background: url("../images/technology-bg.png") no-repeat center
+  background-size: cover
+  .main-title
+    color: #fff
+  .technology-block
+    flex-flow: row wrap
+    +flexbox
+    .technology-block-item
+      flex: 1
+      .technology-block-item__title
+        width: 220px
+        margin: 0 auto 30px
+        background-color: #fec76a
+        padding: 15px
+        text-transform: $text-transform
+        text-align: center
+      .technology-block-item__image
+        width: 220px
+        height: 100px
+        margin: 5px auto
+        background-color: #fff
+        padding: 15px
+        img
+          width: 100%
+          height: 100%
+  .google-partner-block
+    width: 50%
+    margin: 0 auto
+    padding: 14px 10px
+    background-color: #d6d6d6
+    flex-flow: row wrap
+    +flexbox
+    .google-partner-text
+      flex: 2
+      text-transform: $text-transform
+      font-size: 12px
+      color: #525252
+      .google-partner-text__title
+        font-weight: 700
+    .google-partner-triangle
+      flex: 1
+      .triangle
+        border-style: solid
+        border-width: 37px 0 37px 50px
+        border-color: transparent transparent transparent #ffffff
+    .google-partner-img
+      flex: 1
+      img
+        width: 100%
+        height: 100%
+//End Technology
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 81f4ede8295b8d4de56ca2127e4b66468a5cade6
