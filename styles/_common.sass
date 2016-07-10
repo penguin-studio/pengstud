@@ -66,24 +66,24 @@ body
   +flexbox
   +flex-direction(column)
   justify-content: center
-  .banner-title
-    text-align: center
-    font-size: 36px
-    color: #fff
-    text-transform: $text-transform
-    font-weight: 500
-    margin-bottom: 50px
-    span
-      padding: 5px
-      border: 2px solid #fff
-  .banner-text
-    text-align: center
-    font-size: 36px
-    line-height: 2
-    color: #fff
-    text-transform: $text-transform
-    span
-      color: #feaa1e
+.banner-title
+  text-align: center
+  font-size: 36px
+  color: #fff
+  text-transform: $text-transform
+  font-weight: 500
+  margin-bottom: 50px
+  span
+    padding: 5px
+    border: 2px solid #fff
+.banner-text
+  text-align: center
+  font-size: 36px
+  line-height: 2
+  color: #fff
+  text-transform: $text-transform
+  span
+    color: #feaa1e
 //End Banner
 
 //Work
@@ -99,20 +99,20 @@ body
 .work-block-row
   flex-flow: row wrap
   +flexbox
-  .work-block-item
-    flex: 1
-    text-align: center
-    .work-block-item__title
-      font-size: 16px
-      line-height: 18px
-      font-weight: 700
-      text-transform: $text-transform
-      margin: 10px auto 5px
-      width: 250px
-    .work-block-item__text
-      width: 250px
-      margin: 0 auto 20px
-      line-height: 18px
+.work-block-item
+  flex: 1
+  text-align: center
+.work-block-item__title
+  font-size: 16px
+  line-height: 18px
+  font-weight: 700
+  text-transform: $text-transform
+  margin: 10px auto 5px
+  width: 250px
+.work-block-item__text
+  width: 250px
+  margin: 0 auto 20px
+  line-height: 18px
 //End Work
 
 //Trust
@@ -147,93 +147,93 @@ body
   background-size: cover
   .main-title
     color: #fff
-  .technology-block
-    flex-flow: row wrap
-    +flexbox
-    .technology-block-item
-      flex: 1
-      .technology-block-item__title
-        width: 220px
-        margin: 0 auto 30px
-        background-color: #fec76a
-        padding: 15px
-        text-transform: $text-transform
-        text-align: center
-      .technology-block-item__image
-        width: 220px
-        height: 100px
-        margin: 5px auto
-        background-color: #fff
-        padding: 15px
-        img
-          width: 100%
-          height: 100%
-  .google-partner-block
-    display: block
-    width: 50%
-    margin: 30px auto 0
-    padding: 14px 10px
-    background-color: #d6d6d6
-    flex-flow: row wrap
-    +flexbox
-    .google-partner-text
-      flex: 2
-      text-transform: $text-transform
-      font-size: 12px
-      line-height: 16px
-      color: #525252
-      .google-partner-text__title
-        font-weight: 700
-    .google-partner-triangle
-      flex: 1
-      .triangle
-        display: inline-block
-        margin-left: 20%
-        border-style: solid
-        border-width: 37px 0 37px 50px
-        border-color: transparent transparent transparent #ffffff
-    .google-partner-img
-      flex: 2
-      img
-        width: 100%
-        height: 100%
+.technology-block
+  flex-flow: row wrap
+  +flexbox
+.technology-block-item
+  flex: 1
+.technology-block-item__title
+  width: 220px
+  margin: 0 auto 30px
+  background-color: #fec76a
+  padding: 15px
+  text-transform: $text-transform
+  text-align: center
+.technology-block-item__image
+  width: 220px
+  height: 100px
+  margin: 5px auto
+  background-color: #fff
+  padding: 15px
+  img
+    width: 100%
+    height: 100%
+.google-partner-block
+  display: block
+  width: 50%
+  margin: 30px auto 0
+  padding: 14px 10px
+  background-color: #d6d6d6
+  flex-flow: row wrap
+  +flexbox
+.google-partner-text
+  flex: 2
+  text-transform: $text-transform
+  font-size: 12px
+  line-height: 16px
+  color: #525252
+  .google-partner-text__title
+    font-weight: 700
+.google-partner-triangle
+  flex: 1
+  .triangle
+    display: inline-block
+    margin-left: 20%
+    border-style: solid
+    border-width: 37px 0 37px 50px
+    border-color: transparent transparent transparent #ffffff
+.google-partner-img
+  flex: 2
+  img
+    width: 100%
+    height: 100%
 //End Technology
 
 //Service
 .service
   padding: 30px 0
   background-color: #e5e8ea
-  .service-block-row
-    width: 70%
-    margin: 0 auto
-    flex-flow: row wrap
-    +flexbox
-    .service-block-item
-      display: block
-      flex: 1
-      min-height: 180px
-      background-color: #adb5bb
-      border: 2px solid #fff
-      margin: 5px
-      padding: 5px
-      +transition(all ease 1.5s)
-    .service-block-item__image
-      height: 152px
-      justify-content: center
-      align-items: center
-      +flexbox
-    .service-block-item__name
-      color: #555f67
-      font-size: 10px
-      line-height: 14px
-      font-weight: 700
-      text-align: center
-      text-transform: $text-transform
-      padding: 0 15px
-    .service-block-item:hover
-      background-color: #919ca4
-      .service-block-item__name
-        color: #fff
+.service-block-row
+  width: 70%
+  margin: 0 auto
+  flex-flow: row wrap
+  +flexbox
+.service-block-item
+  display: block
+  flex: 1
+  min-height: 180px
+  background-color: #adb5bb
+  border: 2px solid #fff
+  margin: 5px
+  padding: 5px
+  +transition(all ease 1.5s)
+.service-block-item__image
+  height: 152px
+  justify-content: center
+  align-items: center
+  +flexbox
+.service-block-item__name
+  color: #555f67
+  font-size: 10px
+  line-height: 14px
+  font-weight: 700
+  text-align: center
+  text-transform: $text-transform
+  padding: 0 15px
+.service-block-item:hover
+  background-color: #919ca4
+  .service-block-item__name
+    color: #fff
 //End Service
 
 //Seo
@@ -247,18 +247,18 @@ body
 .seo-toggle
   text-align: center
   margin-top: 30px
-  .seo-toggle__arrow
-    display: inline-block
-    width: 50px
-    line-height: 50px
-    font-size: 50px
-    color: #555f67
-    border: 1px solid #555f67
-    +border-radius(25px)
-    &:hover
-      color: #fff
-      background-color: #555f67
-      cursor: pointer
+.seo-toggle__arrow
+  display: inline-block
+  width: 50px
+  line-height: 50px
+  font-size: 50px
+  color: #555f67
+  border: 1px solid #555f67
+  +border-radius(25px)
+  &:hover
+    color: #fff
+    background-color: #555f67
+    cursor: pointer
 //End Seo
 
 //Footer
@@ -267,31 +267,31 @@ body
   background-size: cover
   padding: 30px 0
   +clearfix
-  .footer-block-left
-    float: left
+.footer-block-left
+  float: left
+  color: #fff
+  li
+    line-height: 38px
+    margin-bottom: 10px
+    img
+      float: left
+      margin-right: 20px
+.footer-block-right
+  float: right
+.footer-block-socials
+  text-align: center
+  a
+    font-size: 50px
     color: #fff
-    li
-      line-height: 38px
-      margin-bottom: 10px
-      img
-        float: left
-        margin-right: 20px
-  .footer-block-right
-    float: right
-    .footer-block-socials
-      text-align: center
-      a
-        font-size: 50px
-        color: #fff
-        margin: 0 10px
-    .footer-block__info
-      font-size: 16px
-      line-height: 20px
-      color: #fff
-      font-weight: 700
-      text-transform: $text-transform
-      text-align: center
-      margin-top: 30px
+    margin: 0 10px
+.footer-block__info
+  font-size: 16px
+  line-height: 20px
+  color: #fff
+  font-weight: 700
+  text-transform: $text-transform
+  text-align: center
+  margin-top: 30px
 
 //End Footer
 
@@ -330,3 +330,83 @@ body
 
 //End Page SERVICES!!!
 
+////Page Fast site
+//Sub header
+.sub_header
+  background-color: #edeef0
+  padding: 30px 0
+.sub_header-block
+  color: #6e6e6e
+  font-weight: 700
+  text-transform: $text-transform
+  border: 2px solid #fff
+  flex-flow: row wrap
+  +flexbox
+.sub_header-item
+  flex: 1
+  padding: 5px
+  flex-flow: row wrap
+  justify-content: center
+  align-items: center
+  +flexbox
+  img
+    margin-right: 20px
+//End Sub header
+//Form-block
+.form-block
+  background-color: #edeef0
+  padding: 30px 0
+.form-block-wrapper
+  flex-flow: row wrap
+  +flexbox
+.form-block-image
+  flex: 2
+  margin-right: 15px
+  img
+    width: 100%
+    height: 100%
+.form-block-item
+  flex: 1
+.form-block-item__input
+  display: block
+  width: 100%
+  padding: 8px
+  background-color: #fff
+  text-transform: $text-transform
+  font-size: 16px
+  line-height: 16px
+  margin-bottom: 20px
+  font-weight: 700
+  +box-sizing(border-box)
+.form-block-item__comment
+  display: block
+  width: 100%
+  height: 225px
+  background-color: #fff
+  padding: 8px
+  border: 0
+  font-size: 16px
+  line-height: 16px
+  color: #404040
+  margin-bottom: 20px
+  font-weight: 700
+  +box-sizing(border-box)
+.btn
+  display: block
+  width: 100%
+  padding: 8px
+  background-color: #fec76a
+  text-transform: $text-transform
+  font-size: 16px
+  line-height: 16px
+  color: #404040
+  font-weight: 700
+  +transition(all ease 1.5s)
+  &:hover
+    background-color: #FEAA1E
+
+
+
+
+//End Form-block
+////End Page Fast site
