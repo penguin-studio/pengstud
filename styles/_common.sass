@@ -294,3 +294,39 @@ body
       margin-top: 30px
 
 //End Footer
+
+//Page SERVICES!!!
+.services-wrap
+  +clearfix
+  .services-title
+    text-transform: $text-transform
+    color: $color-title
+    font-size: 18px
+.services-flex-wrap
+  display: flex
+  flex-direction: row
+  margin: 10px 0
+.services-item
+  padding: 10px
+  margin: 0 15px
+  flex: 1
+  text-align: center
+  background-color: $bg-service-item
+  +transition(all ease 1.5s)
+  +box-sizing(border-box)
+  &:hover
+    background-color: $bg-service-item_hover
+  &:hover .services-item__link
+    color: $bg-base
+  img
+    display: block
+    margin: 20px auto
+  .services-item__link
+    color: #5e6972
+    text-transform: $text-transform
+    font-size: 13px
+    +transition(all ease 1.5s)
+
+
+//End Page SERVICES!!!
+
