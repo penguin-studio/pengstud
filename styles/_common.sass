@@ -57,7 +57,7 @@ body
 //End Header
 
 //Banner
-.content-block-1
+.banner
   background: url("../images/banner-home.png") no-repeat center
   background-size: cover
 .banner-wrap
@@ -87,7 +87,7 @@ body
 //End Banner
 
 //Work
-.content-block-2
+.work
   padding: 30px 0
 .main-title
   text-align: center
@@ -116,7 +116,7 @@ body
 //End Work
 
 //Trust
-.content-block-3
+.trust
   background-color: #e5e8ea
   padding: 30px 0
 .trust-block-row
@@ -141,7 +141,7 @@ body
 //End Trust
 
 //Technology
-.content-block-4
+.technology
   padding: 30px 0
   background: url("../images/technology-bg.png") no-repeat center
   background-size: cover
@@ -200,7 +200,7 @@ body
 //End Technology
 
 //Service
-.content-block-5
+.service
   padding: 30px 0
   background-color: #e5e8ea
   .service-block-row
@@ -236,6 +236,64 @@ body
         color: #fff
 //End Service
 
+//Seo
+.seo
+  padding: 30px 0
+.seo-text
+  width: 70%
+  margin: 0 auto
+  text-align: justify
+  line-height: 18px
+.seo-toggle
+  text-align: center
+  margin-top: 30px
+  .seo-toggle__arrow
+    display: inline-block
+    width: 50px
+    line-height: 50px
+    font-size: 50px
+    color: #555f67
+    border: 1px solid #555f67
+    +border-radius(25px)
+    &:hover
+      color: #fff
+      background-color: #555f67
+      cursor: pointer
+//End Seo
+
+//Footer
+.footer
+  background: url("../images/footer-bg.png") no-repeat center
+  background-size: cover
+  padding: 30px 0
+  +clearfix
+  .footer-block-left
+    float: left
+    color: #fff
+    li
+      line-height: 38px
+      margin-bottom: 10px
+      img
+        float: left
+        margin-right: 20px
+  .footer-block-right
+    float: right
+    .footer-block-socials
+      text-align: center
+      a
+        font-size: 50px
+        color: #fff
+        margin: 0 10px
+    .footer-block__info
+      font-size: 16px
+      line-height: 20px
+      color: #fff
+      font-weight: 700
+      text-transform: $text-transform
+      text-align: center
+      margin-top: 30px
+
+//End Footer
 
 //Page SERVICES!!!
 .services-wrap
@@ -260,7 +318,6 @@ body
     background-color: $bg-service-item_hover
   &:hover .services-item__link
     color: $bg-base
-
   img
     display: block
     margin: 20px auto
@@ -272,3 +329,4 @@ body
 
 
 //End Page SERVICES!!!
+
