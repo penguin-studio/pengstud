@@ -642,11 +642,11 @@ body
   color: #adb5bb
   font-size: 18px
   line-height: 20px
-  text-transform: uppercase
+  text-transform: $text-transform
 .projects-title
   font-size: 20px
   line-height: 24px
-  text-transform: uppercase
+  text-transform: $text-transform
   margin-bottom: 30px
 .projects-text
   margin-bottom: 30px
@@ -672,7 +672,7 @@ body
 
 ////Page Landing
 .sub_header__title
-  width: 215px
+  width: 250px
   line-height: 20px
 
 .section-seo-text
@@ -681,3 +681,158 @@ body
     color: #576169
     font-weight: 600
 ////End Page Landing
+
+//Page smm
+.work_soc
+  padding: 30px 0
+  background: url("../images/smm-work_soc-bg.png") no-repeat center
+  background-size: cover
+  .main-title
+    font-size: 30px
+    line-height: 34px
+    margin-bottom: 30px
+    color: #fff
+  .footer-block-socials
+    a
+      margin: 0 30px
+      font-size: 80px
+//End page smm
+
+//Page audit
+.interest-block
+  flex-flow: row wrap
+  +flexbox
+.interest-item
+  flex: 1
+  margin: 0 10px 20px
+  +clearfix
+.interest-question
+  width: 300px
+  height: 325px
+  background-color: rgba(215, 219, 222, 0.5)
+  padding: 20px
+  color: #fff
+  text-transform: $text-transform
+  +border-radius(3px)
+.question__title
+  line-height: 1.1
+  font-weight: 700
+  text-align: center
+  margin-bottom: 20px
+.question__caption
+  color: #fec76a
+  margin-bottom: 10px
+.question__list li
+  margin-left: 20px
+  font-size: 12px
+  text-align: left
+  margin-bottom: 5px
+
+.float-left
+  float: left
+.float-right
+  float: right
+//End page audit
+
+//Page support_site
+.supp_site
+  .bg-item1::before
+    position: absolute
+    top: -70px
+    right: -200px
+  .bg-item2::before
+    content: ''
+    width: 100px
+    height: 2px
+    background-color: #d7dbde
+    position: absolute
+    top: -80px
+    right: 130px
+    +transform(rotate(90deg))
+  .bg-item4::before
+    position: absolute
+    top: -70px
+    left: -200px
+.seo-title
+  text-transform: uppercase
+  text-align: center
+  color: #576169
+  font-size: 18px
+  line-height: 20px
+  margin: 20px 0
+//End support_site
+
+//Page support_content
+.cont_soc
+  padding: 50px 0
+  background: url("../images/supp_content-cont_soc.jpg") no-repeat center
+  background-size: cover
+.cont_soc-block
+  flex-flow: column wrap
+  +flexbox
+.cont_soc-row
+  flex-flow: row wrap
+  +flexbox
+.cont_soc-item
+  flex: 1
+.cont_soc-icon
+  display: block
+  width: 150px
+  height: 150px
+  font-size: 140px
+  color: #fff
+  margin: 0 auto
+  text-align: center
+  position: relative
+.cont_soc-title
+  width: 200px
+  height: 200px
+  margin: 10px auto
+  font-size: 40px
+  line-height: 44px
+  font-weight: 600
+  color: #fff
+  text-transform: $text-transform
+  background-color: rgba(215,219,222,0.5)
+  justify-content: center
+  align-items: center
+  text-align: center
+  +border-radius(50%)
+  +flexbox
+.left-top::before
+  content: ''
+  width: 142px
+  height: 3px
+  background-color: rgba(215,219,222,0.5)
+  position: absolute
+  right: -125px
+  bottom: -15px
+  +transform(rotate(210deg))
+.right-top::before
+  content: ''
+  width: 142px
+  height: 3px
+  background-color: rgba(215,219,222,0.5)
+  position: absolute
+  left: -125px
+  bottom: -15px
+  +transform(rotate(150deg))
+.left-bot::before
+  content: ''
+  width: 142px
+  height: 3px
+  background-color: rgba(215,219,222,0.5)
+  position: absolute
+  right: -125px
+  top: -15px
+  +transform(rotate(150deg))
+.right-bot::before
+  content: ''
+  width: 142px
+  height: 3px
+  background-color: rgba(215,219,222,0.5)
+  position: absolute
+  left: -125px
+  top: -15px
+  +transform(rotate(210deg))
+//End support_content
